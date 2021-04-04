@@ -319,6 +319,7 @@
                 </li>
             </ul>
         </address>
+        
     </div>
     <!------Join------->
     <div class="container_social">
@@ -354,6 +355,17 @@
             </li>
         </ul>
     </div>
+    <div class="form_field_footer">
+         <p class="send_text">Подпишитесь на рассылку</p>
+        <form action="#" class="form_input_wrapper">
+            <input type="email" name="user_mail" class="footer_form_input" placeholder="E-mail" required>
+            <button type="button" class="btn_footer">Подписаться
+                <svg class="foter_send_icon">
+                <use href="./img/sprite.svg#icon-icon_send"></use>
+                </svg>
+            </button>
+        </form>
+    </div>
 </div>   
     </footer>
     <!--Modal_window-->
@@ -364,6 +376,9 @@
                     <use href="./img/sprite.svg#icon-vector"></use>
                 </svg>
             </button>
+            
+            <p class="modal_form_h3">Оставьте свои данные, мы вам перезвоним</p>
+
             <form action="#" class="modal_form"> 
                 <label class="modal_form_field">
                     Имя
@@ -397,7 +412,7 @@
                     <textarea name="user_message" class="modal_form_message" placeholder="Введите текст"></textarea>
                 </label>
                 <input type="checkbox" id="user_term" name="user_term" class="modal_form_term visuality">
-                <label for="user_term" class="modal_form_check_deck">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+                <label for="user_term" class="modal_form_check_deck">Соглашаюсь с рассылкой и принимаю&nbsp<a href="">Условия договора</a></label>
                 <button type="submit" class="modal_form_btn">Отправить</button>
             </form>
         </div>
